@@ -1,0 +1,67 @@
+1. 객체로 부터 [Class 객체]를 얻어오는 3가지 방법에 대해서 설명하세요 .
+object.getClass()
+모든 클래스마다 class 클래스 변수
+Class.forName()으로 클래스 객체를 얻어 올수 있다.
+
+1-2. 객체로 부터 [Class 객체]를 얻어오는 이유 ? 
+클래스의 정보파악 하기 위해서
+
+2. 예외 및 예외처리에 대해서 설명하세요.
+예외는 에러, 오류를 뜻한다
+오류는 오작동 또는 비정상적으로 종료되는 원인이다.
+예외처리는 프로그램 실행 시 발생할수 있는 오류에 대비해 코딩하는 것이다
+
+3. 다중 catch문 
+Try{
+}catch(Ex1 e){
+}catch(Ex2 e){
+}catch(Ex3 e){
+}
+
+   멀티 catch문
+Try{
+}catch(Ex1 | Ex2 | Ex3 e){
+}
+
+   중첩 catch문
+Try{
+	Try{
+		Try{
+		}catch(Ex1 e){
+		}
+	}catch(Ex2 e){
+	}
+}catch(Ex3 e){
+}
+
+   finally문
+Try{
+}catch(Ex e){
+}finally{
+}
+
+   에 대해서 설명하세요.
+
+4. 강제로 예외 발생시키기에 대해서 설명하세요.
+throw문을 사용하여서 강제로 발생시킨다
+
+5. checked 예외, unchecked 예외에 대해서 설명하세요.
+checked 예외는 컴파일 시점에서 컴파일러 에러를 확인하는 것
+반드시 처리해야 하고
+반대로 unchecked 예외는 처리해도되고 안해도된다
+
+6. "SS21_Team.txt"  파일을 읽어서 본인의 팀원들만의 이름을 teamMember 배열에 
+저장한 후 팀장명을 제외한 나머지 팀원들의 이름을  
+내림차순으로 정렬해서 아래와 같이 출력하는 코딩을 하세요.
+[실행결과]  예 : 
+[ 2조 ]
+<ul>
+	<li class="leader">박우현</li>
+	<li>이동찬</li>
+	<li>윤형준</li>
+	<li>유진</li>
+	<li>원대안</li>
+</ul>
+
+7. https://school.programmers.co.kr/learn/courses/30/lessons/120913
+위의 주소 문제 풀기.

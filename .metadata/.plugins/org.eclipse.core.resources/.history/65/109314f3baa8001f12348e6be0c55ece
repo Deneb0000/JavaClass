@@ -1,0 +1,20 @@
+package days23;
+
+public class Solutuion {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+		Solutuion2 solutuion2 = new Solutuion2();
+		
+		String answer = solutuion2.solution("aaaaa", "bbbbb");
+		
+		System.out.println(answer);
+
+
+	}
+
+
+}

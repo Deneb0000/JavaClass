@@ -1,0 +1,30 @@
+package days23;
+
+public class Solutuion {
+
+	public static void main(String[] args) {
+
+		Solutuion2 solutuion2 = new Solutuion2();
+		
+		String answer = solutuion2.solution("He11oWor1d", "lloWorl", 2);
+		
+		System.out.println(solutuion2);
+		
+		//		String my_string = "He11oWor1d";
+//		String overwrite_string = "lloWorl";
+//		int s = 2;
+//		
+//		// Solution 클래스의 인스턴스 생성
+//        Solution solutionInstance = new Solution();
+//
+//        // solution 메서드 호출
+//        String result = solutionInstance.solution(myString, overwriteString, s);
+//
+//        // 결과 출력
+//        System.out.println("Result: " + result);
+		
+
+	}
+
+
+}

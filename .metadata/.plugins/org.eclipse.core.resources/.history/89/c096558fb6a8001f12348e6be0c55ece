@@ -1,0 +1,70 @@
+package days23;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class Solution02 {
+	public static void main(String[] args) {
+		String my_string = "He11oWor1d";
+		String overwrite_string = "lloWorl";
+		int s = 2;
+		
+		System.out.println(my_string.substring(0,s)+overwrite_string);
+	}
+
+//	public int solution(int[] array) {
+//		for (int i = 0; i < array.length-1; i++) {
+//			for (int j = 0; j < array.length-1-i; j++) {
+//				if(array[j]>)
+//			}
+//		}
+//		
+//		int answer = array.length / 2;
+//        return array[answer];
+//		
+//		
+		
+		//홀짝 구분하기
+		/*		
+		Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if (n%2==0) {
+			System.out.printf("%d is even",n);
+		}else {
+			System.out.printf("%d is odd",n);
+		}
+		*/
+		
+		//문자열 돌리기
+		/*
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        for (int i = 0; i < a.length(); i++) {
+        	char c = a.charAt(i);
+			System.out.println(c);
+		}
+		 */
+
+
+		//문자열 붙여서 출력하기
+		/*
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        String b = sc.next();
+        System.out.printf("%s%s",a,b);
+		 */
+
+
+		//덧셈식 출력하기
+		//        Scanner sc = new Scanner(System.in);
+		//        int a = sc.nextInt();
+		//        int b = sc.nextInt();
+		//
+		//        System.out.println(a+ " + "+b+" = "+(a+b));
+
+
+		//
+		//!@#$%^&*(\'"<>?:;
+		//		System.out.println("!@#$%^&*(\\'\"<>?:;");
+	}
+}

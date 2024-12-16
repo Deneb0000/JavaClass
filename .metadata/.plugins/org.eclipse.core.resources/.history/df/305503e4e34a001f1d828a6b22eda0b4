@@ -1,0 +1,28 @@
+package days20;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print(">게임횟수 입력?");
+		int gnum = 1;
+		gnum = scanner.nextInt();
+		
+		LinkedHashSet<Integer> lotto = null;
+		ArrayList<Integer> lottos = new ArrayList<Integer>();
+		
+		for (int i = 1; i <=gnum; i++) {
+
+			System.out.printf("%d게임 : \n",i);
+			
+			//			lotto = new LinkedHashSet<Integer>();
+//			fillLotto
+		}
+
+	}
+
+}

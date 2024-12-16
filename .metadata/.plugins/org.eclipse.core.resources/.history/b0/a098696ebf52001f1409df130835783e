@@ -1,0 +1,45 @@
+package days23;
+
+
+
+
+class Solution {
+	public static void main(String [] args) {
+		solution(1, 2, 3, 4);
+		
+	}
+
+	public static int[] solution(int numer1, int denom1, int numer2, int denom2) {
+		int[] answer = {};
+		int a = numer1 * denom2;
+		int b = numer2 * denom1;
+		int c = denom1 * denom2;
+		int [] d = {a+b, c};
+		
+		int r =0;
+		
+		while (r=a%b ==0 || a=b%r ==0) {
+			
+		}
+		
+		System.out.printf("%d, %d",d[0], d[1]);
+		return answer;
+
+		
+		
+		/* 두 수 비교하기
+		int answer = num1==num2? 1 : -1;       
+        return answer;
+		 */
+
+		/* 두 수의 나눗셈 *1000
+	public static int solution(int num1, int num2) {
+        double a = num1;
+        double b = num2;
+    	int answer = (int) ((a/b)*1000);
+        System.out.println(answer);
+        return answer;
+		 */
+	}	
+
+}

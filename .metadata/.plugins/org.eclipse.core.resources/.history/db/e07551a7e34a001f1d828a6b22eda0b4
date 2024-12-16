@@ -1,0 +1,16 @@
+package days20;
+
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(">게임횟수 입력?");
+		int gnum = 1;
+		gnum = scanner.nextInt();
+		
+
+	}
+
+}
